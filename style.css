@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    transition: 0.3s;
+}
+a:hover {
+    opacity: 0.7;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.page-header,
+.page-hero,
+.page-content,
+.page-footer{
+    min-width: 1280px;
+    width: 100%;
+}
+.page-header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+}
+.page-header__inner
+.page-content__inner{
+    box-sizing: content-box;
+}
+.page-header{
+    border-top: solid 4px #7f9916;
+}
+.page-header__inner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.page-header .logo,
+.page-footer .logo{
+    width: 256px;
+}
+.sns-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sns-list__item{
+    width: 24px;
+}
+.sns-list__item:not(:first-child){
+    margin-left: 16px;
+}
+.page-header__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.global-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.global-nav > .sns-list{
+    margin-left: 64px;
+}
+.global-nav > .link-botton{
+    margin-left: 64px;
+}
+.link-botton{
+    display: table;
+    width: 140px;
+}
+.menu-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-title{
+    justify-content: center;
+    display: flex;
+    margin: 40px auto 32px auto;
+    font-size: 32px;
+    border-bottom: 2px solid #7f9916;
+    max-width: 400px;
+}
+
+.feature-li{
+    width: 286px;
+}
+
+.feature-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    max-width: 954px;
+}
+
+.casestudy-title{
+    justify-content: center;
+    display: flex;
+    margin: 40px auto 32px auto;
+    font-size: 32px;
+    border-bottom: 2px solid #7f9916;
+    max-width: 400px;
+}
+
+.casestudy-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    max-width: 1080px;
+}
+
+.casestudy-li{
+    width: 520px;
+}
+
+.price-title{
+    justify-content: center;
+    display: flex;
+    margin: 40px auto 32px auto;
+    font-size: 32px;
+    border-bottom: 2px solid #7f9916;
+    max-width: 400px;
+}
+
+.price-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    max-width: 1080px;
+}
+
+.price-li{
+    width: 347px;
+}
+
+.voice-title{
+    justify-content: center;
+    display: flex;
+    margin: 40px auto 32px auto;
+    font-size: 32px;
+    border-bottom: 2px solid #7f9916;
+    max-width: 400px;
+}
+
+.voice-list{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 680px;
+   margin: 0 auto 0 auto;
+   padding: 24px 24px 8px 24px;
+}
+
+.voice-li{
+    border:2px solid #7f9916;
+   border-radius: 8px;
+   padding:40px 24px;
+   margin-bottom:32px;
+   display: flex;
+}
+
+.voice-img{
+    width:94px;
+    height:94px;
+    margin-right: 10px;
+}
+
+p2{
+    margin: auto;
+    font-size: small;
+}
+
+.mitumori{
+    max-width:1082px;
+    margin-bottom: 18px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    max-width: auto;
+    margin: 24px auto 0 auto;
+    padding: 24px 24px 8px 24px;
+}
+
+.company-title{
+    justify-content: center;
+    display: flex;
+    margin: 40px auto 32px auto;
+    font-size: 32px;
+    border-bottom: 2px solid #7f9916;
+    max-width: 400px;
+}
+
+.company-list{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 1082px;
+   margin: 24px auto 0 auto;
+   padding: 24px 24px 8px 24px;
+}
+
+.logo-img{
+    width: 256px;
+}
+
+.footer{
+    width: 1080px;
+    margin: 0 auto 0 auto;
+    background-color: #E9F8ad;
+    padding: 24px 24px 8px 24px;
+}
+
+.sns-logo{
+    width: 45px;
+}
+
+.sns-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .sns-list__item {
+    width: 24px;
+  }
+  .sns-list__item:not(:first-child) {
+    margin-left: 16px;
+  }
+
+  .footer-contents{
+      width: 1080px;
+      margin: 0 auto 0 auto;
+  }
+
+  .nisiyama-logo{
+      margin-right: 0;
+      margin-left: auto;
+      width: 30%;
+  }
